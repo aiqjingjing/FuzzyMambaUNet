@@ -1,0 +1,29 @@
+{
+  "size": 256,
+  "epochs": 300,
+  "batch_size": 32,
+  "num_workers": 0,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "t_max": 50,
+  "eta_min": 1e-05,
+  "threshold": 0.5,
+  "boundary_tolerance": 2.0,
+  "model": {
+    "pate": true,
+    "evgla": true,
+    "fa": true,
+    "concepts": 4,
+    "operator": "product",
+    "gate": "fuzzy",
+    "fuzzy_width": 1.0,
+    "center_std": 0.1,
+    "groups": 16,
+    "drop_path": 0.2,
+    "global_branch": "variance",
+    "mc_dropout_p": 0.0
+  },
+  "split_dir": "experiments/val189/splits",
+  "data_root": "experiments/val189/data/isic2018",
+  "pretrained": "assets/vmamba_small_e238_ema.pth"
+}
