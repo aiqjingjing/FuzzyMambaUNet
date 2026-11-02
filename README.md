@@ -1,4 +1,4 @@
-<img width="760" height="742" alt="image" src="https://github.com/user-attachments/assets/49add163-c735-4284-a67b-ae68db9b567e" /># FuzzyMambaUNet
+# FuzzyMambaUNet
 
 Code for **FuzzyMambaUNet: Uncertainty-Guided Fuzzy Feature Reasoning with State Space Models for Skin Lesion Segmentation**.
 
