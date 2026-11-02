@@ -1,4 +1,4 @@
-# FuzzyMambaUNet
+<img width="760" height="742" alt="image" src="https://github.com/user-attachments/assets/49add163-c735-4284-a67b-ae68db9b567e" /># FuzzyMambaUNet
 
 Code for **FuzzyMambaUNet: Uncertainty-Guided Fuzzy Feature Reasoning with State Space Models for Skin Lesion Segmentation**.
 
@@ -35,15 +35,19 @@ FA separates principal and residual features, evaluates residual compatibility w
 | CUDA toolkit | 11.7 |
 | Framework | PyTorch |
 
-### 2. Install Required Packages
+### 2. Environment
 
-Run the following commands from the project root:
-
-```bash
-conda create -n fmu python=3.8 -y
-conda activate fmu
-sh scripts/install_environment.sh
-```
+- torchvision: 0.14.0+cu117
+- mamba-ssm: 1.0.1
+- causal-conv1d: 1.0.0
+- NumPy: 1.24.2
+- Pillow: 9.4.0
+- SciPy: 1.10.1
+- einops: 0.8.1
+- timm: 0.6.13
+- packaging: 23.0
+- ninja: 1.11.1.4
+- certifi: >=2024.2.2
 
 ### 3. Prepare the Dataset
 
